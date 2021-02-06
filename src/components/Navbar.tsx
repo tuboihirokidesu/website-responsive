@@ -98,9 +98,10 @@ const Logo = styled(Link)`
   cursor: pointer;
   position: flex;
   justify-self: start;
+  align-items: center;
   font-size: 2rem;
   text-decoration: none;
-  margin-left: 20px;
+  margin-right: 120px;
 
   @media screen and (max-width: 960px) {
     position: absolute;
@@ -154,4 +155,3 @@ const NavLinks = styled(Link)`
   height: 100%;
   padding: 0.5rem 1rem;
 `;
-const NavLinksMobile = styled(Link)``;
